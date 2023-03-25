@@ -42,15 +42,16 @@ h1, h2, h3, h4, h5, h6 {
 	
 	margin-left: -10%;
 	margin-top: 4%;
-	width: 55vw;
+	width: 45vw;
 	
 }
 
 
 .container {
 padding-top: 3%;
-	padding-left: 3%;
-	width: 70vw; height: 95vh;
+	padding-left: 5%;
+	padding-right: 3%;
+	width: 800px; height: 95vh;
 	font: bold 16px/1.3em sans-serif;
 
 	color: #f1d476;
@@ -103,7 +104,7 @@ a {
 
   .work {
 
-	font-size: 2em;
+	font-size: 1.8em;
 	line-height: 1.2;
   }
 
@@ -167,9 +168,9 @@ a {
 
 @media (max-width: 991.98px) { 
 	.container {
-		width: 90vw;
+		width: 750px;
 		margin-top: 1%;
-		height: 80vh;
+		height: 90%;
 	}
 	.container img {
 		width: 95%;
@@ -178,8 +179,17 @@ a {
 @media (max-width: 767.98px) { 
 	.container {
 		width: 90vw;
+		height: 90%;
 		padding-left: 5%;
 	}
+	.work {
+		font-size: 1.5em;
+	}
+	.divider-bottom {
+		margin-bottom: -15%;}
+		footer {
+			margin-bottom: -10%;
+		}
  }
  @media (max-width: 575.98px) { 
  body {
@@ -189,25 +199,36 @@ a {
 	margin-bottom: -10%;
  }
 	.container {
-		
+		margin-top: 5%;
 		width: 90vw;
-		height: 95vh;
+		height: 100%;
 		padding: 5%;
+		padding-top: 10%;
 		
 
 	}
 	.divider-bottom {
 	margin-bottom: -20%;
 	}
-
+	.twit {
+		font-size: 1.4em;
+	}
+	footer {
+		margin-bottom: -20%;
+	}
   }
   @media (max-width: 359.98px) { 
+	body {
+		height: 150%;
+	}
 	.container {
-		padding-top: 15%;
-		height: 93%;
+		margin-top: 20%;
+		padding-top: 13%;
+		height: 120%;
 		
 	}
 	footer {
+		margin-bottom: -50%;
 		width: 50%;
 	}
 	.work {
@@ -216,4 +237,7 @@ a {
 	.twit {
 		font-size: 1.3em;
 	}
+	.divider-bottom {
+		margin-bottom: -75%;
+		}
    }
