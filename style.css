@@ -203,7 +203,7 @@ a {
 		width: 90vw;
 		height: 100%;
 		padding: 5%;
-		padding-top: 10%;
+		padding-top: 8%;
 		
 
 	}
@@ -211,6 +211,9 @@ a {
 	margin-bottom: -20%;
 	}
 	.twit {
+		font-size: 1.3em;
+	}
+	.work {
 		font-size: 1.4em;
 	}
 	footer {
@@ -223,7 +226,7 @@ a {
 	}
 	.container {
 		margin-top: 20%;
-		padding-top: 13%;
+		padding-top: 15%;
 		height: 120%;
 		
 	}
