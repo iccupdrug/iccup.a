@@ -1,12 +1,16 @@
-@import url(https://fonts.googleapis.com/css?family=PT+Sans+Narrow&subset=latin,cyrillic-ext,latin-ext,cyrillic);
 
+@font-face { 
+	
+	src: url(fonts/Roboto-MediumItalic.ttf) format("woff2");
+	
+}
 /* ======= Base ======= */
 html {
 	background-color: #151107;
 	height:100%;
 }
 body {
-	font-family: 'PT Sans Narrow', sans-serif;
+	font-family: 'Roboto-MediumItalic';
 	height: 100%;
 	color: #ffe29e;
 
@@ -14,7 +18,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: 'PT Sans Narrow', sans-serif;
+	font-family: 'Roboto-MediumItalic';
 	color: #ffe29e;
 	font-weight: 500;
   }
@@ -103,13 +107,14 @@ a {
   }
 
   .work {
-
+	font-family: 'Roboto-MediumItalic';
 	font-size: 1.8em;
 	line-height: 1.2;
   }
 
 
   .twit {
+	font-family: 'Roboto-MediumItalic';
 	font-size: 1.5em;
 	width: 100%;
 	margin-top: 5%;
