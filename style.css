@@ -1,16 +1,18 @@
 
-@font-face { 
-	
-	src: url(fonts/Roboto-MediumItalic.ttf) format("woff2");
-	
+@font-face {
+    font-family: 'FoglihtenNo06';
+    src: local('FoglihtenNo06'), url('/fonts/foglihtenno06.woff2') format('woff2'), url('/fonts/foglihtenno06.woff') format('woff'), url('/fonts/foglihtenno06.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
 }
+
 /* ======= Base ======= */
 html {
 	background-color: #151107;
 	height:100%;
 }
 body {
-	font-family: 'Roboto-MediumItalic';
+	font-family: "Roboto", "Arial", sans-serif;
 	height: 100%;
 	color: #ffe29e;
 
@@ -18,7 +20,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: 'Roboto-MediumItalic';
+	font-family: "Roboto", "Arial", sans-serif;
 	color: #ffe29e;
 	font-weight: 500;
   }
@@ -107,7 +109,7 @@ a {
   }
 
   .work {
-	font-family: 'Roboto-MediumItalic';
+	font-family: "Roboto", "Arial", sans-serif;
 	font-size: 1.8em;
 	line-height: 1.2;
   }
@@ -206,9 +208,9 @@ a {
 	.container {
 		margin-top: 5%;
 		width: 90vw;
-		height: 100%;
+		height: 320px;
 		padding: 5%;
-		padding-top: 8%;
+		padding-top: 12%;
 		
 
 	}
@@ -216,23 +218,24 @@ a {
 	margin-bottom: -20%;
 	}
 	.twit {
-		font-size: 1.3em;
+		font-size: 0.8em;
 	}
 	.work {
-		font-size: 1.4em;
+		font-size: 0.9em;
 	}
 	footer {
 		margin-bottom: -20%;
 	}
+	.container img {
+		width: 90%;
+	}
   }
   @media (max-width: 359.98px) { 
-	body {
-		height: 150%;
-	}
+	
 	.container {
-		margin-top: 20%;
-		padding-top: 15%;
-		height: 120%;
+	
+		padding-top: 20%;
+		height: 50%;
 		
 	}
 	footer {
@@ -240,10 +243,10 @@ a {
 		width: 50%;
 	}
 	.work {
-		font-size: 1.3em;
+		font-size: 0.7em;
 	}
 	.twit {
-		font-size: 1.3em;
+		font-size: 0.7em;
 	}
 	.divider-bottom {
 		margin-bottom: -75%;
