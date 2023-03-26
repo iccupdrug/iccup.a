@@ -12,7 +12,7 @@ html {
 	height:100%;
 }
 body {
-	font-family: "Roboto", "Arial", sans-serif;
+	font-family: 'PT Sans Narrow';
 	height: 100%;
 	color: #ffe29e;
 
@@ -20,7 +20,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: "Roboto", "Arial", sans-serif;
+	font-family: 'PT Sans Narrow';
 	color: #ffe29e;
 	font-weight: 500;
   }
@@ -109,14 +109,14 @@ a {
   }
 
   .work {
-	font-family: "Roboto", "Arial", sans-serif;
+	font-family: 'PT Sans Narrow';
 	font-size: 1.8em;
 	line-height: 1.2;
   }
 
 
   .twit {
-	font-family: 'Roboto-MediumItalic';
+	font-family: 'PT Sans Narrow';
 	font-size: 1.5em;
 	width: 100%;
 	margin-top: 5%;
@@ -206,9 +206,10 @@ a {
 	margin-bottom: -10%;
  }
 	.container {
-		margin-top: 5%;
+		margin: auto;
+		position: absolute;
 		width: 90vw;
-		height: 320px;
+		height: auto;
 		padding: 5%;
 		padding-top: 12%;
 		
@@ -218,10 +219,10 @@ a {
 	margin-bottom: -20%;
 	}
 	.twit {
-		font-size: 0.8em;
+		font-size: 1em;
 	}
 	.work {
-		font-size: 0.9em;
+		font-size: 1em;
 	}
 	footer {
 		margin-bottom: -20%;
