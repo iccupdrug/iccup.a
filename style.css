@@ -5,6 +5,32 @@
     font-weight: 400;
     font-style: normal;
 }
+@font-face {
+    font-family: 'Helvetica';
+    src: url('HelveticaLTStd-Cond.eot');
+    src: local('Helvetica LT Std Condensed'), local('HelveticaLTStd-Cond'),
+        url('/fonts/helv/HelveticaLTStd-Cond.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/helv/HelveticaLTStd-Cond.woff2') format('woff2'),
+        url('/fonts/helv/HelveticaLTStd-Cond.woff') format('woff'),
+        url('/fonts/helv/HelveticaLTStd-Cond.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Helvetica LT Std';
+    src: url('HelveticaLTStd-ExtraComp.eot');
+    src: local('Helvetica LT Std Extra Compressed'), local('HelveticaLTStd-ExtraComp'),
+        url('/fonts/helv/HelveticaLTStd-ExtraComp.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/helv/HelveticaLTStd-ExtraComp.woff2') format('woff2'),
+        url('/fonts/helv/HelveticaLTStd-ExtraComp.woff') format('woff'),
+        url('/fonts/helv/HelveticaLTStd-ExtraComp.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
 
 /* ======= Base ======= */
 html {
@@ -18,6 +44,7 @@ body {
 
 	
 }
+
 
 h1, h2, h3, h4, h5, h6 {
 	font-family: 'PT Sans Narrow';
@@ -65,7 +92,8 @@ h1, h2, h3, h4, h5, h6 {
   }
 
 .logo-text {
-	font-size: 2.5em;
+	font-family: 'Helvetica', sans-serif;
+	font-size: 2.8rem;
 	margin-top: 10%;
 	margin-left: 3%;
 	line-height: 1.2;
@@ -79,7 +107,7 @@ font-size: 0.7em;
 	padding-right: 3%;
 	padding-bottom: 4%;
 	width: 800px;
-	height: auto;
+	height: 500px;
 	font: bold 16px/1.3em sans-serif;
 	color: #f1d476;
 	box-sizing: border-box;
@@ -200,17 +228,24 @@ a {
 	.container {
 		width: 750px;
 		margin-top: 1%;
-		height: 90%;
+		height: 70%;
 	}
 	.container img {
-		width: 95%;
+		width: ;
 	}
 }
 @media (max-width: 767.98px) { 
+	.logo-text{
+		font-family: 'Helvetica LT Std', sans-serif;}
 	.container {
 		width: 90vw;
-		height: 90%;
+		height: 60%;
 		padding-left: 5%;
+	}
+	.container img {
+		width: 10% ;
+		height: 10%;
+		margin-top: 10%;
 	}
 	.work {
 		font-size: 1.5em;
@@ -225,6 +260,7 @@ a {
  body {
 	height: 110%;
  }
+
  footer {
 	margin-bottom: -10%;
  }
@@ -241,46 +277,41 @@ a {
 	.divider-bottom {
 	margin-bottom: -20%;
 	}
-	.twit {
-		font-size: 1em;
-	}
-	.work {
-		font-size: 1em;
-	}
+
 	footer {
 		margin-bottom: -20%;
 	}
-	.container img {
-		width: 90%;
-	}
-	.image-top {
-		position: absolute;
-		bottom: 99%;
-		left: 50%;
-		height: 9px;
-		width: 90%;
-		transform: translatex(-50%);
-		background-size: 100% 100%;
-		background-image: url("img/section-top-border.svg");
+
+.logo-text {
+	font-size: 1.9rem;
+}
+	  .logo img {
+		margin-left: 8%;
+		width: 15%;
+		height: 15%;
 	  }
-  }
+	
+ }
   @media (max-width: 359.98px) { 
 	
 	.container {
 	
 		padding-top: 20%;
-		height: 50%;
+		height: 60%;
 		
 	}
 	footer {
 		margin-bottom: -50%;
 		width: 50%;
 	}
+.logo-text {
+	font-size: 1.2rem;
+}
 	.work {
-		font-size: 0.7em;
+		font-size: 1rem;
 	}
 	.twit {
-		font-size: 0.7em;
+		font-size: 1rem;
 	}
 	.divider-bottom {
 		margin-bottom: -75%;
